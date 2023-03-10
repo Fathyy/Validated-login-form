@@ -1,0 +1,39 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.items-wrapper {
+    /* height and width take up the entire screen */
+    width: 100vw;
+    height: 100vh;
+}
+.form-wrapper{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.actual-form{
+    border: 1px solid;
+    border-radius: 0.5rem;
+}
+.form-group{
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+input{
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+}
+.submit{
+    width: 80%;
+}
+.login-signup{
+    background-color: blueviolet;
+    color: white;
+    padding: 1rem 0.5rem;
+}
