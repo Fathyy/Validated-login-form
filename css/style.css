@@ -18,12 +18,22 @@
     border: 1px solid;
     border-radius: 0.5rem;
 }
+.heading h3{
+  text-align: center;  
+}
 .form-group{
     margin-bottom: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 1rem;
+}
+.last-p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+
 }
 input{
     padding: 0.25rem;
